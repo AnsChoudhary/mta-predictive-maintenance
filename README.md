@@ -68,12 +68,14 @@ XGBoost was also evaluated using **time based cross validation** to preserve the
 Because failing to identify an actual future outage could be costly in a predictive maintenance setting, **recall for the outage class** was treated as an important evaluation metric.
 
 ## Model Results
+## Model Results
 
-LOGISTIC REGRESSION              RANDOM FOREST                 XGBOOST                     TUNED XGBOOST
-Accuracy: 79.5%                  Accuracy: 79.6%               Accuracy: 81.5%             Accuracy: 81.5%
-Outage Precision: 84%            Outage Precision: 80%         Outage Precision: 80%       Outage Precision: 81%
-Outage Recall: 83%               Outage Recall: 89%            Outage Recall: **93%**      Outage Recall: 92%
-Outage F1: 83%                   Outage F1: 84%                Outage F1: **86%**          Outage F1: **86%**
+| Model | Accuracy | Outage Precision | Outage Recall | Outage F1 |
+|---|---:|---:|---:|---:|
+| Logistic Regression | 79.5% | 84% | 83% | 83% |
+| Random Forest | 79.6% | 80% | 89% | 84% |
+| XGBoost | 81.5% | 80% | **93%** | **86%** |
+| Tuned XGBoost | 81.5% | 81% | 92% | **86%** |
 
 The baseline XGBoost model achieved the highest outage recall, identifying approximately **93% of the actual outages in the held-out test data**.
 
