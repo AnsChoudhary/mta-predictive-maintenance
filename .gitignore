@@ -1,0 +1,16 @@
+# Raw MTA dataset
+MTA_NYCT_Subway_Elevator_and_Escalator_Availability__Beginning_2015_20260922.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
