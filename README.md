@@ -1,3 +1,10 @@
+
+## Live Demo
+
+Try the deployed predictive maintenance application:
+
+[Launch the MTA Outage Predictor](https://mta-predictive-maintenance.streamlit.app/)
+
 # MTA Elevator & Escalator Predictive Maintenance
 
 ## Project Overview
