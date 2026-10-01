@@ -77,7 +77,7 @@ Because failing to identify an actual future outage could be costly in a predict
 | XGBoost | 81.5% | 80% | **93%** | **86%** |
 | Tuned XGBoost | 81.5% | 81% | 92% | **86%** |
 
-The baseline XGBoost model achieved the highest outage recall, identifying approximately **93% of the actual outages in the held-out test data**.
+The baseline XGBoost model achieved the highest outage recall, identifying approximately **93% of the actual outages in the held out test data**.
 
 ## Streamlit Application
 
